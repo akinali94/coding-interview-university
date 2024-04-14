@@ -596,8 +596,8 @@ if you can identify the runtime complexity of different algorithms. It's a super
       - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
       - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
       - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-  - [ ] Implement a vector (mutable array with automatic resizing):
-    - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
+  - [x] Implement a vector (mutable array with automatic resizing):
+    - [x] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
     - [x] New raw data array with allocated memory
       - can allocate int array under the hood, just not use its features
       - start with 16, or if the starting number is greater, use power of 2 - 16, 32, 64, 128
@@ -624,18 +624,18 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Linked Lists
 
-  - [ ] Description:
+  - [x] Description:
     - [x] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
       - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
       - [x] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-      - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-      - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
-  - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation
-  - [ ] Linked List vs Arrays:
+      - [x] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+      - [x] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
+  - [x] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation
+  - [x] Linked List vs Arrays:
     - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
     - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-  - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-  - [ ] Gotcha: you need pointer to pointer knowledge:
+  - [x] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+  - [x] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
     - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
@@ -654,21 +654,21 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] value_n_from_end(n) - returns the value of the node at the nth position from the end of the list
     - [ ] reverse() - reverses the list
     - [ ] remove_value(value) - removes the first item in the list with this value
-  - [ ] Doubly-linked List
+  - [x] Doubly-linked List
     - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
     - No need to implement
 
 - ### Stack
 
-  - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-  - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-  - [ ] Will not implement. Implementing with the array is trivial
+  - [x] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+  - [x] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
+  - [x] Will not implement. Implementing with the array is trivial
 
 - ### Queue
 
-  - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-  - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-  - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
+  - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+  - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+  - [x] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
   - [ ] Implement using linked-list, with tail pointer:
     - enqueue(value) - adds value at a position at the tail
     - dequeue() - returns value and removes least recently added element (front)
@@ -689,14 +689,16 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
   - [ ] Videos:
 
-    - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-    - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [x] [Lecture 21 - Hash Tables (video)](https://www.youtube.com/watch?v=CH9L3Up0XNw&list=PLu0nzW8Es1x3TmpwQRLMQwCtulEd43ZY8&ab_channel=YogeshPaul)
+    - [x] [Lecture 22 - Hash Tables (video)](https://www.youtube.com/watch?v=DbLHMV-_fN4&list=PLu0nzW8Es1x3TmpwQRLMQwCtulEd43ZY8&index=23&ab_channel=YogeshPaul)
+    - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+    - [x] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [x] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
     - [ ] [PyCon 2017: The Dictionary Even Mightier (video)](https://www.youtube.com/watch?v=66P5FMkWoVU)
     - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
     - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
-    - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
+    - [x] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
   - [ ] Online Courses:
 
@@ -718,11 +720,11 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Binary search
 
-  - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-  - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-  - [ ] [detail](https://www.topcoder.com/thrive/articles/Binary%20Search)
-  - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
-  - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
+  - [x] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+  - [x] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+  - [x] [detail](https://www.topcoder.com/thrive/articles/Binary%20Search)
+  - [x] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
+  - [x] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
   - [ ] Implement:
     - binary search (on a sorted array of integers)
     - binary search using recursion
